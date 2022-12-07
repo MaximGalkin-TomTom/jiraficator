@@ -1,0 +1,14 @@
+{
+    "name": "Jiraficator",
+    "description": "Open jira issues fast",
+    "version": "1.0",
+    "manifest_version": 3,
+    "omnibox": { "keyword" : "j" },
+    "host_permissions": ["https://jira.tomtomgroup.com/*", "https://fs-tt.tomtomgroup.com/*"],
+    "icons": {
+        "16": "16-full-color.png"
+      },
+    "background": { 
+      "service_worker": "background.js"
+    }
+  }
